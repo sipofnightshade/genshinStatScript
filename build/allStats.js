@@ -4552,6 +4552,336 @@ var baizhu = {
 		}
 	]
 };
+var lynette = {
+	base: {
+		hp: 1039.4417724609375,
+		attack: 19.410720825195312,
+		defense: 59.68567657470703,
+		critrate: 0.05000000074505806,
+		critdmg: 0.5
+	},
+	curve: {
+		hp: "GROW_CURVE_HP_S4",
+		attack: "GROW_CURVE_ATTACK_S4",
+		defense: "GROW_CURVE_HP_S4"
+	},
+	specialized: "FIGHT_PROP_WIND_ADD_HURT",
+	promotion: [
+		{
+			maxlevel: 20,
+			hp: 0,
+			attack: 0,
+			defense: 0,
+			specialized: 0
+		},
+		{
+			maxlevel: 40,
+			hp: 776.5161743164062,
+			attack: 14.501141548156738,
+			defense: 44.58824920654297,
+			specialized: 0
+		},
+		{
+			maxlevel: 50,
+			hp: 1328.2513427734375,
+			attack: 24.804584503173828,
+			defense: 76.26937866210938,
+			specialized: 0.05999999865889549
+		},
+		{
+			maxlevel: 60,
+			hp: 2063.8984375,
+			attack: 38.54250717163086,
+			defense: 118.51087188720703,
+			specialized: 0.11999999731779099
+		},
+		{
+			maxlevel: 70,
+			hp: 2615.633544921875,
+			attack: 48.845951080322266,
+			defense: 150.19200134277344,
+			specialized: 0.11999999731779099
+		},
+		{
+			maxlevel: 80,
+			hp: 3167.36865234375,
+			attack: 59.14939498901367,
+			defense: 181.8731231689453,
+			specialized: 0.18000000715255737
+		},
+		{
+			maxlevel: 90,
+			hp: 3719.10400390625,
+			attack: 69.45283508300781,
+			defense: 213.5542449951172,
+			specialized: 0.23999999463558197
+		}
+	]
+};
+var lyney = {
+	base: {
+		hp: 857.9879760742188,
+		attack: 24.76460075378418,
+		defense: 41.88100051879883,
+		critrate: 0.05000000074505806,
+		critdmg: 0.5
+	},
+	curve: {
+		hp: "GROW_CURVE_HP_S5",
+		attack: "GROW_CURVE_ATTACK_S5",
+		defense: "GROW_CURVE_HP_S5"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			hp: 0,
+			attack: 0,
+			defense: 0,
+			specialized: 0
+		},
+		{
+			maxlevel: 40,
+			hp: 735.6471557617188,
+			attack: 21.231853485107422,
+			defense: 35.90999984741211,
+			specialized: 0
+		},
+		{
+			maxlevel: 50,
+			hp: 1258.34375,
+			attack: 36.31764602661133,
+			defense: 61.42499923706055,
+			specialized: 0.04800000041723251
+		},
+		{
+			maxlevel: 60,
+			hp: 1955.2725830078125,
+			attack: 56.43203353881836,
+			defense: 95.44499969482422,
+			specialized: 0.09600000083446503
+		},
+		{
+			maxlevel: 70,
+			hp: 2477.96923828125,
+			attack: 71.517822265625,
+			defense: 120.95999908447266,
+			specialized: 0.09600000083446503
+		},
+		{
+			maxlevel: 80,
+			hp: 3000.666015625,
+			attack: 86.6036148071289,
+			defense: 146.47500610351562,
+			specialized: 0.14399999380111694
+		},
+		{
+			maxlevel: 90,
+			hp: 3523.362548828125,
+			attack: 101.68940734863281,
+			defense: 171.99000549316406,
+			specialized: 0.19200000166893005
+		}
+	]
+};
+var freminet = {
+	base: {
+		hp: 1012.0880126953125,
+		attack: 21.369600296020508,
+		defense: 59.39955139160156,
+		critrate: 0.05000000074505806,
+		critdmg: 0.5
+	},
+	curve: {
+		hp: "GROW_CURVE_HP_S4",
+		attack: "GROW_CURVE_ATTACK_S4",
+		defense: "GROW_CURVE_HP_S4"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			hp: 0,
+			attack: 0,
+			defense: 0,
+			specialized: 0
+		},
+		{
+			maxlevel: 40,
+			hp: 756.08154296875,
+			attack: 15.964559555053711,
+			defense: 44.3745002746582,
+			specialized: 0
+		},
+		{
+			maxlevel: 50,
+			hp: 1293.29736328125,
+			attack: 27.30780029296875,
+			defense: 75.90374755859375,
+			specialized: 0.05999999865889549
+		},
+		{
+			maxlevel: 60,
+			hp: 2009.585205078125,
+			attack: 42.43212127685547,
+			defense: 117.9427490234375,
+			specialized: 0.11999999731779099
+		},
+		{
+			maxlevel: 70,
+			hp: 2546.801025390625,
+			attack: 53.775360107421875,
+			defense: 149.4720001220703,
+			specialized: 0.11999999731779099
+		},
+		{
+			maxlevel: 80,
+			hp: 3084.016845703125,
+			attack: 65.11859893798828,
+			defense: 181.00125122070312,
+			specialized: 0.18000000715255737
+		},
+		{
+			maxlevel: 90,
+			hp: 3621.232666015625,
+			attack: 76.46183776855469,
+			defense: 212.53050231933594,
+			specialized: 0.23999999463558197
+		}
+	]
+};
+var wriothesley = {
+	base: {
+		hp: 1058.1851806640625,
+		attack: 24.20599937438965,
+		defense: 59.411190032958984,
+		critrate: 0.05000000074505806,
+		critdmg: 0.5
+	},
+	curve: {
+		hp: "GROW_CURVE_HP_S5",
+		attack: "GROW_CURVE_ATTACK_S5",
+		defense: "GROW_CURVE_HP_S5"
+	},
+	specialized: "FIGHT_PROP_CRITICAL_HURT",
+	promotion: [
+		{
+			maxlevel: 20,
+			hp: 0,
+			attack: 0,
+			defense: 0,
+			specialized: 0
+		},
+		{
+			maxlevel: 40,
+			hp: 907.2981567382812,
+			attack: 20.752939224243164,
+			defense: 50.94089889526367,
+			specialized: 0
+		},
+		{
+			maxlevel: 50,
+			hp: 1551.957275390625,
+			attack: 35.498451232910156,
+			defense: 87.13574981689453,
+			specialized: 0.09600000083446503
+		},
+		{
+			maxlevel: 60,
+			hp: 2411.5029296875,
+			attack: 55.15913009643555,
+			defense: 135.3955535888672,
+			specialized: 0.19200000166893005
+		},
+		{
+			maxlevel: 70,
+			hp: 3056.162109375,
+			attack: 69.9046401977539,
+			defense: 171.59039306640625,
+			specialized: 0.19200000166893005
+		},
+		{
+			maxlevel: 80,
+			hp: 3700.8212890625,
+			attack: 84.650146484375,
+			defense: 207.78524780273438,
+			specialized: 0.2879999876022339
+		},
+		{
+			maxlevel: 90,
+			hp: 4345.48046875,
+			attack: 99.39566040039062,
+			defense: 243.9801025390625,
+			specialized: 0.3840000033378601
+		}
+	]
+};
+var neuvillette = {
+	base: {
+		hp: 1143.9840087890625,
+		attack: 16.218019485473633,
+		defense: 44.872501373291016,
+		critrate: 0.05000000074505806,
+		critdmg: 0.5
+	},
+	curve: {
+		hp: "GROW_CURVE_HP_S5",
+		attack: "GROW_CURVE_ATTACK_S5",
+		defense: "GROW_CURVE_HP_S5"
+	},
+	specialized: "FIGHT_PROP_CRITICAL_HURT",
+	promotion: [
+		{
+			maxlevel: 20,
+			hp: 0,
+			attack: 0,
+			defense: 0,
+			specialized: 0
+		},
+		{
+			maxlevel: 40,
+			hp: 980.8628540039062,
+			attack: 13.904470443725586,
+			defense: 38.474998474121094,
+			specialized: 0
+		},
+		{
+			maxlevel: 50,
+			hp: 1677.791748046875,
+			attack: 23.78396224975586,
+			defense: 65.8125,
+			specialized: 0.09600000083446503
+		},
+		{
+			maxlevel: 60,
+			hp: 2607.0302734375,
+			attack: 36.95661544799805,
+			defense: 102.26249694824219,
+			specialized: 0.19200000166893005
+		},
+		{
+			maxlevel: 70,
+			hp: 3303.958984375,
+			attack: 46.83610916137695,
+			defense: 129.60000610351562,
+			specialized: 0.19200000166893005
+		},
+		{
+			maxlevel: 80,
+			hp: 4000.887939453125,
+			attack: 56.71560287475586,
+			defense: 156.9375,
+			specialized: 0.2879999876022339
+		},
+		{
+			maxlevel: 90,
+			hp: 4697.81689453125,
+			attack: 66.5950927734375,
+			defense: 184.27499389648438,
+			specialized: 0.3840000033378601
+		}
+	]
+};
 var charactersStats = {
 	kamisatoayaka: kamisatoayaka,
 	jean: jean,
@@ -4621,7 +4951,12 @@ var charactersStats = {
 	dehya: dehya,
 	mika: mika,
 	kaveh: kaveh,
-	baizhu: baizhu
+	baizhu: baizhu,
+	lynette: lynette,
+	lyney: lyney,
+	freminet: freminet,
+	wriothesley: wriothesley,
+	neuvillette: neuvillette
 };
 
 var charactersCurve = {
@@ -6393,6 +6728,170 @@ var toukaboushigure = {
 		}
 	]
 };
+var wolffang = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var finaleofthedeep = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var fleuvecendreferryman = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.10000000149011612
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CHARGE_EFFICIENCY",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var thedockhandsassistant = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.09000000357627869
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_HP_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
 var aquilafavonia = {
 	base: {
 		attack: 47.5369987487793,
@@ -7728,6 +8227,129 @@ var mailedflower = {
 		}
 	]
 };
+var talkingstick = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.03999999910593033
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var tidalshadow = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.09000000357627869
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var portablepowersaw = {
+	base: {
+		attack: 41.067100524902344,
+		specialized: 0.11999999731779099
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_204",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_HP_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
 var skywardpride = {
 	base: {
 		attack: 47.5369987487793,
@@ -8701,6 +9323,129 @@ var missivewindspear = {
 	},
 	curve: {
 		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var balladofthefjords = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var rightfulreward = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_HP_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var prospectorsdrill = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
 		specialized: "GROW_CURVE_CRITICAL_201"
 	},
 	specialized: "FIGHT_PROP_ATTACK_PERCENT",
@@ -9947,6 +10692,129 @@ var fruitoffulfillment = {
 		}
 	]
 };
+var sacrificialjade = {
+	base: {
+		attack: 41.067100524902344,
+		specialized: 0.07999999821186066
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_204",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var flowingpurity = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var balladoftheboundlessblue = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.06666699796915054
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CHARGE_EFFICIENCY",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
 var skywardatlas = {
 	base: {
 		attack: 47.5369987487793,
@@ -10241,6 +11109,88 @@ var tulaytullahsremembrance = {
 	},
 	curve: {
 		attack: "GROW_CURVE_ATTACK_302",
+		specialized: "GROW_CURVE_CRITICAL_301"
+	},
+	specialized: "FIGHT_PROP_CRITICAL_HURT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 31.100000381469727
+		},
+		{
+			maxlevel: 50,
+			attack: 62.20000076293945
+		},
+		{
+			maxlevel: 60,
+			attack: 93.4000015258789
+		},
+		{
+			maxlevel: 70,
+			attack: 124.5
+		},
+		{
+			maxlevel: 80,
+			attack: 155.60000610351562
+		},
+		{
+			maxlevel: 90,
+			attack: 186.6999969482422
+		}
+	]
+};
+var cashflowsupervision = {
+	base: {
+		attack: 47.5369987487793,
+		specialized: 0.04800000041723251
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_302",
+		specialized: "GROW_CURVE_CRITICAL_301"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 31.100000381469727
+		},
+		{
+			maxlevel: 50,
+			attack: 62.20000076293945
+		},
+		{
+			maxlevel: 60,
+			attack: 93.4000015258789
+		},
+		{
+			maxlevel: 70,
+			attack: 124.5
+		},
+		{
+			maxlevel: 80,
+			attack: 155.60000610351562
+		},
+		{
+			maxlevel: 90,
+			attack: 186.6999969482422
+		}
+	]
+};
+var tomeoftheeternalflow = {
+	base: {
+		attack: 44.33580017089844,
+		specialized: 0.19200000166893005
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_304",
 		specialized: "GROW_CURVE_CRITICAL_301"
 	},
 	specialized: "FIGHT_PROP_CRITICAL_HURT",
@@ -11323,6 +12273,129 @@ var ibispiercer = {
 		}
 	]
 };
+var scionoftheblazingsun = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.03999999910593033
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_CRITICAL",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var songofstillness = {
+	base: {
+		attack: 42.4010009765625,
+		specialized: 0.09000000357627869
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_201",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
+var rangegauge = {
+	base: {
+		attack: 43.734901428222656,
+		specialized: 0.05999999865889549
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_202",
+		specialized: "GROW_CURVE_CRITICAL_201"
+	},
+	specialized: "FIGHT_PROP_ATTACK_PERCENT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 25.899999618530273
+		},
+		{
+			maxlevel: 50,
+			attack: 51.900001525878906
+		},
+		{
+			maxlevel: 60,
+			attack: 77.80000305175781
+		},
+		{
+			maxlevel: 70,
+			attack: 103.69999694824219
+		},
+		{
+			maxlevel: 80,
+			attack: 129.6999969482422
+		},
+		{
+			maxlevel: 90,
+			attack: 155.60000610351562
+		}
+	]
+};
 var skywardharp = {
 	base: {
 		attack: 47.5369987487793,
@@ -11610,6 +12683,47 @@ var hunterspath = {
 		}
 	]
 };
+var thefirstgreatmagic = {
+	base: {
+		attack: 45.9364013671875,
+		specialized: 0.14399999380111694
+	},
+	curve: {
+		attack: "GROW_CURVE_ATTACK_301",
+		specialized: "GROW_CURVE_CRITICAL_301"
+	},
+	specialized: "FIGHT_PROP_CRITICAL_HURT",
+	promotion: [
+		{
+			maxlevel: 20,
+			attack: 0
+		},
+		{
+			maxlevel: 40,
+			attack: 31.100000381469727
+		},
+		{
+			maxlevel: 50,
+			attack: 62.20000076293945
+		},
+		{
+			maxlevel: 60,
+			attack: 93.4000015258789
+		},
+		{
+			maxlevel: 70,
+			attack: 124.5
+		},
+		{
+			maxlevel: 80,
+			attack: 155.60000610351562
+		},
+		{
+			maxlevel: 90,
+			attack: 186.6999969482422
+		}
+	]
+};
 var weaponsStats = {
 	dullblade: dullblade,
 	silversword: silversword,
@@ -11720,6 +12834,10 @@ var weaponsStats = {
 	]
 },
 	toukaboushigure: toukaboushigure,
+	wolffang: wolffang,
+	finaleofthedeep: finaleofthedeep,
+	fleuvecendreferryman: fleuvecendreferryman,
+	thedockhandsassistant: thedockhandsassistant,
 	aquilafavonia: aquilafavonia,
 	skywardblade: skywardblade,
 	freedomsworn: freedomsworn,
@@ -11753,6 +12871,9 @@ var weaponsStats = {
 	akuoumaru: akuoumaru,
 	forestregalia: forestregalia,
 	mailedflower: mailedflower,
+	talkingstick: talkingstick,
+	tidalshadow: tidalshadow,
+	portablepowersaw: portablepowersaw,
 	skywardpride: skywardpride,
 	wolfsgravestone: wolfsgravestone,
 	songofbrokenpines: songofbrokenpines,
@@ -11778,6 +12899,9 @@ var weaponsStats = {
 	wavebreakersfin: wavebreakersfin,
 	moonpiercer: moonpiercer,
 	missivewindspear: missivewindspear,
+	balladofthefjords: balladofthefjords,
+	rightfulreward: rightfulreward,
+	prospectorsdrill: prospectorsdrill,
 	staffofhoma: staffofhoma,
 	skywardspine: skywardspine,
 	vortexvanquisher: vortexvanquisher,
@@ -11808,6 +12932,9 @@ var weaponsStats = {
 	oathsworneye: oathsworneye,
 	wanderingevenstar: wanderingevenstar,
 	fruitoffulfillment: fruitoffulfillment,
+	sacrificialjade: sacrificialjade,
+	flowingpurity: flowingpurity,
+	balladoftheboundlessblue: balladoftheboundlessblue,
 	skywardatlas: skywardatlas,
 	lostprayertothesacredwinds: lostprayertothesacredwinds,
 	memoryofdust: memoryofdust,
@@ -11816,6 +12943,8 @@ var weaponsStats = {
 	kagurasverity: kagurasverity,
 	athousandfloatingdreams: athousandfloatingdreams,
 	tulaytullahsremembrance: tulaytullahsremembrance,
+	cashflowsupervision: cashflowsupervision,
+	tomeoftheeternalflow: tomeoftheeternalflow,
 	huntersbow: huntersbow,
 	seasonedhuntersbow: seasonedhuntersbow,
 	ravenbow: ravenbow,
@@ -11842,13 +12971,17 @@ var weaponsStats = {
 	kingssquire: kingssquire,
 	endoftheline: endoftheline,
 	ibispiercer: ibispiercer,
+	scionoftheblazingsun: scionoftheblazingsun,
+	songofstillness: songofstillness,
+	rangegauge: rangegauge,
 	skywardharp: skywardharp,
 	amosbow: amosbow,
 	elegyfortheend: elegyfortheend,
 	polarstar: polarstar,
 	aquasimulacra: aquasimulacra,
 	thunderingpulse: thunderingpulse,
-	hunterspath: hunterspath
+	hunterspath: hunterspath,
+	thefirstgreatmagic: thefirstgreatmagic
 };
 
 var weaponsCurve = {
