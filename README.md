@@ -2,8 +2,7 @@
 
 ###### Current Version
 
-- Game: **3.8**
-- Application: **1.0**
+- Game: **4.2**
 
 ### How to use
 
