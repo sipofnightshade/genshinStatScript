@@ -2,7 +2,7 @@
 
 ###### Current Version
 
-- Game: **4.2**
+- Game: **4.4**
 
 ### How to use
 
